@@ -368,7 +368,7 @@ export default function GroupPurchasePage() {
     const orderData = {
       customerInfo: {
         ...customerInfo,
-        phone: "'" + customerInfo.phone,
+        phone: customerInfo.phone,
       },
       products: selectedProducts,
       totalProductPrice,
